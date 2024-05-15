@@ -13,6 +13,10 @@ struct alignas(float) Detection {
 struct AffineMatrix {
     float value[6];
 };
-
+struct AffineMat
+{
+    float v0, v1, v2;
+    float v3, v4, v5;
+};
 const int bbox_element =
         sizeof(AffineMatrix) / sizeof(float) + 1;  // left, top, right, bottom, confidence, class, keepflag
