@@ -4,7 +4,7 @@
 
 const static char* kInputTensorName = "images";
 const static char* kOutputTensorName = "output";
-const static int kNumClass = 80;
+const static int kNumClass = 2;
 const static int kNumberOfPoints = 17;  // number of keypoints total
 const static int kBatchSize = 4;
 const static int kGpuId = 0;
